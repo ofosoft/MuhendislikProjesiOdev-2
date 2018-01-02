@@ -1,0 +1,2 @@
+<div class="blokkenar" style="background-color:#f0f0f0"><div class="menubaslik">DSÝ Genel Müdürlüðü Telefon Rehberi</div>
+<iframe allowtransparency="yes" frameborder="0" height="720" scrolling="no" src="http://telefonrehberi.dsibim.local/TelefonRehber.aspx" width="100%"></iframe></div>

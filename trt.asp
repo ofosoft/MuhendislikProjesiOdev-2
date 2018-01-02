@@ -1,0 +1,1 @@
+<iframe allowtransparency="yes" frameborder="0" height="600" scrolling="no" src="http://trt.net.tr/Canli/canli.aspx?Kanal=TV1" style="margin-top:-100px; margin-left:-100px; padding-left:2px;" width="100%"></iframe>

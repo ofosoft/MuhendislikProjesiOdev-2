@@ -1,0 +1,13 @@
+@media print {
+	*{font-family:Tahoma,Arial;border:0;padding:none;}
+	a[href]:after{content:none;}
+	body{padding:30px 50px;}
+	h1.entry-title {font-size:20px;}
+	.hdesc {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+	}
+	div#hyazi {font-size:14px;padding: 0 0 15px 0;}
+	#logo{padding:0;width:340px;height:90px;margin-bottom:15px;}
+	#kfust,#cssmenu,#menu,#flashaber,#kh-etiket,#kh-sosyal,#kh-yorum,#kh-inline20a,#kh-yanmanset,#kh-print,#sabithbar,.top-adva,.top-advb,.top-advc,.top-advd,.breadcrumb,.inline10,.inline20,.inline15w,.foot-copy,.newsin-adva,.newsin-advb,.newsin-advc,.newsin-advd,.postartsur,.panel,.foot-copy,.footbge,.footbga,.footbgb,.footbg,.footbgbeyaz,#sag-blok,#mnsslider,select{display:none!important;}.container,#main{width:100%;border:0;}img{display:block;width:100%}}

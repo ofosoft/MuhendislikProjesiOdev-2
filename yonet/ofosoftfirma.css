@@ -1,0 +1,299 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+body,td,th {
+	font-family: Verdana;
+	font-size: 12px;
+}
+#tablokenar{
+border:solid 5px;
+border-color:#105f00;
+background-color:#ffffff;
+color:#333333;
+border-radius: 5px;
+padding:3px;
+margin-bottom:5px;
+}
+.kalinbaslik{
+border-bottom:solid 2px;
+border-color:#a20026;
+padding:4px;
+color:#333333;
+margin:3px;
+height:25px;
+font-size: 15px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+}
+.buton{
+border:solid 1px;
+background-color:#0025c6;
+border-color:#a20026;
+border-radius: 4px;
+padding:4px;
+color:#ffffff;
+margin:3px;
+height:30px;
+font-size: 14px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.buton:hover{
+border-color:#0025c6;
+background-color:#a20026;
+cursor:hand;
+}
+.butonyesil{
+border:solid 1px;
+background-color:#007010;
+border-color:#000095;
+border-radius: 4px;
+padding:4px;
+color:#ffffff;
+margin:3px;
+height:30px;
+font-size: 14px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.butonyesil:hover{
+border-color:#007010;
+background-color:#000095;
+cursor:hand;
+}
+.kenarlik {
+border:solid 2px;
+border-color:#bfbfbf;
+}
+.altcizgiduz {
+border-bottom:solid 2px;
+border-color:#bfbfbf;
+}
+.altcizgikesik {
+border-bottom:dotted 2px;
+border-color:#bfbfbf;
+}
+.altkesikcizgi {
+border-top:solid 0px;
+border-left:solid 0px;
+border-right:solid 0px;
+border-bottom:dotted 2px;
+border-color:#333333;
+padding:3px;
+}
+.altkesikcizgi:hover {
+background-color:#a20026;
+color:#f8f8f8;
+}
+#menubg {
+border:solid 1px;
+border-color:#588800;
+background-color:#588800;
+height:20px;
+padding:5px;
+color: #ffffff;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+border-radius: 5px;
+}
+#altzemin {
+border:solid 1px;
+border-color:#831200;
+background-color:#831200;
+height:20px;
+padding:5px;
+color: #ffffff;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+border-radius: 5px;
+}
+.Menu{
+border:solid 0px;
+border-color:#976b3e;
+background-color:#006198;
+//height:25px;
+padding:14px;
+color: #f8f8f8;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+border-radius: 3px;
+}
+.tablokenar{
+border:solid 2px;
+border-color:#b8fc42;
+background-color:#d9ff94;
+border-radius: 4px;
+padding:10px;
+margin-bottom:5px;
+border-radius:3px;
+margin-top:5px;
+}
+.tablokenar:hover{
+background-color:#bbe6ff;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+	color: #000000;
+}
+.mainDiv
+{
+  width:160px;
+}
+.data {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana,helvetica,arial,geneva
+}
+TD {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, helvetica, arial, geneva
+}
+.mbar {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana,helvetica,arial,geneva
+}
+.mb {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, helvetica, arial, geneva
+}
+
+.cer {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana,helvetica,arial,geneva
+}
+.subs {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana,helvetica,arial,geneva
+}
+.mbon {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, helvetica, arial, geneva
+}
+.break {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana,helvetica,arial,geneva
+}
+.mf {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana,helvetica,arial,geneva
+}
+.mfon {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana,helvetica,arial,geneva
+}
+.labric {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana,helvetica,arial,geneva
+}
+.footersmin {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, helvetica, arial, geneva
+}
+.footersmin2 {
+	FONT-SIZE: 7pt; COLOR: #000066; FONT-FAMILY: verdana, helvetica, arial, geneva
+}
+.footers {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana,helvetica,arial,geneva
+}
+.mb {
+	FONT-WEIGHT: normal; BACKGROUND: #0f609d; COLOR: #ffffff; TEXT-ALIGN: center
+}
+.mbon {
+	BACKGROUND: #FFFFCC; TEXT-ALIGN: center;
+	height:25px; font-weight:bold; padding-top:8px;
+	background-image:url(images/baslikalt.png); color:#FFFFFF;
+}
+.yuklebuton {
+	TEXT-ALIGN: center; background-image:url(images/baslikbg2.png);
+	height:25px; font-weight:bold; border:double;
+	color:#FFFFFF;
+}
+.butonguncelle {
+	TEXT-ALIGN: center; background-image:url(images/butonguncelle.png);
+	height:27px; font-weight:bold; border:double;
+	color:#FFFFFF; width:100px;
+}
+.butonsil {
+	TEXT-ALIGN: center; background-image:url(images/butonsil.png);
+	height:27px; font-weight:bold; border:double;
+	color:#FFFFFF; width:100px;
+}
+.butongeri {
+	TEXT-ALIGN: center; background-image:url(images/butongeri.png);
+	height:27px; font-weight:bold; border:double;
+	color:#FFFFFF; width:100px;
+}
+.mc {
+	BACKGROUND: #deeeff; TEXT-ALIGN: center
+}
+.mf {
+	BACKGROUND: #107575; TEXT-ALIGN: center
+}
+.mfon {
+	BACKGROUND: #209e9e; TEXT-ALIGN: center
+}
+.mbar {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.mbar:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.mfar {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.mfar:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.cer {
+	FONT-WEIGHT: bold; COLOR: #343565
+}
+.footers {
+	FONT-WEIGHT: bold; COLOR: #343565
+}
+.footers {
+	FONT-SIZE: 10px; COLOR: #004294; TEXT-DECORATION: none
+}
+A.footers:hover {
+	TEXT-DECORATION: underline
+}
+A.footersmin:hover {
+	TEXT-DECORATION: underline
+}
+A.footersmin2:hover {
+	TEXT-DECORATION: underline
+}
+.datas {
+	FONT-SIZE: 9px
+}
+.breaks {
+	FONT-SIZE: 2px
+}
+.subs {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #004695; TEXT-DECORATION: none
+}
+A.subs:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #004695; TEXT-DECORATION: underline
+}
+.footersmin {
+	FONT-SIZE: 11px; COLOR: #666666; TEXT-DECORATION: none
+}
+.footersmin2 {
+	FONT-SIZE: 11px; COLOR: #666666; TEXT-DECORATION: none
+}
+.radhd {
+	BACKGROUND-COLOR: #deeeff
+}
+.labric {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #004695
+}
+.siyah_bold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.blokbaslik {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none;
+}
+.destek_form {
+	BORDER-RIGHT: #aab3b3 1px solid; BORDER-TOP: #999999 1px solid; BACKGROUND: #f7f7f7; FONT: 11px Verdana; BORDER-LEFT: #aab3b3 1px solid; COLOR: #000000; BORDER-BOTTOM: #d5dddd 1px solid
+}

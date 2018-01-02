@@ -1,0 +1,1 @@
+<div class="blokkenar"><div class="menubaslik"><%=klm(5)%></div><!--#include file="haber1ic.asp"--></div>

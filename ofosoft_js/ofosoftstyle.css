@@ -1,0 +1,421 @@
+<style type="text/css">
+<!--
+#sektorlistesi{
+height: 170px;
+width: 99%;
+overflow: yes;
+border: 5px solid #333333;
+background-color: #f8f8f8;
+padding: 4px;
+line-height:16px;
+font-weight:bold;
+}
+#distablo{
+border:none;
+width:100%;
+background-position:center;
+}
+#distablokenarbeyaz {
+border:solid 2px;
+border-color:#333333;
+background-image:url(../ofosoft_img/divkenar.png);
+border-radius: 4px;
+height:100%;
+padding:4px;
+}
+#kesiknota{
+background-image:url(images/kesiknokta.png);
+height:1px;
+}
+#tablobaslikkenar {
+border-top:solid 1px;
+border-left:solid 1px;
+border-right:solid 1px;
+border-bottom:solid 1px;
+border-color:#de9b00;
+background-color:#de9b00;
+height:20px;
+width:90%;
+padding:6px;
+color: #ffffff;
+font-size: 15px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+border-radius: 7px;
+}
+#divkenarbeyaz {
+border-top:solid 5px;
+border-left:solid 5px;
+border-right:solid 5px;
+border-bottom:solid 5px;
+border-color:#03c0e8;
+background-color:#ffffff;
+padding:6px;
+width:1000px;
+font-size: 15px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+border-radius: 7px;
+}
+#tablobaslikkenarbeyaz {
+border-top:solid 1px;
+border-left:solid 1px;
+border-right:solid 1px;
+border-bottom:solid 1px;
+border-color:#e9e8e7;
+background-color:#f0f0f0;
+height:20px;
+width:98%;
+padding:6px;
+color: #333333;
+font-size: 15px;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+border-radius: 7px;
+}
+#kirmizibaslik {
+border:solid 0px;
+border-color:#976b3e;
+background-image:url("ofosoft_img/baslikbg.png");
+padding:5px;
+color: #333333;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:left;
+border-radius: 5px;
+}
+#blokkenarkirmizi{
+border:solid 1px;
+border-color:#a61b00;
+background-color:#dd2400;
+color:#FFFFFF;
+border-radius: 7px;
+width:98%;
+padding:3px;
+}
+#mavibaslik {
+border:solid 1px;
+border-color:#a98a6b;
+background-image:url("tema/default/menubg.gif");
+height:20px;
+padding:5px;
+color: #ffffff;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+border-radius: 5px;
+}
+#blokkenarmavi{
+border:solid 1px;
+border-color:#004684;
+background-color:#005bab;
+border-radius: 7px;
+width:95%;
+padding:3px;
+}
+#blokkenaracikmavi{
+border:solid 3px;
+border-color:#636363;
+background-color:#858585;
+border-radius: 5px;
+padding:3px;
+}
+#yesilbaslik {
+border:solid 1px;
+border-color:#a0b11e;
+background-color:#a0b11e;
+height:20px;
+padding:6px;
+color: #ffffff;
+font-size: 15px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+border-radius: 7px;
+}
+#blokkenaryesil{
+border:solid 1px;
+border-color:#a0b11e;
+background-color:#cade2f;
+border-radius: 7px;
+width:95%;
+padding:3px;
+}
+#blokkenarturuncu{
+border:solid 1px;
+border-color:#e6a200;
+background-color:#ffbe21;
+border-radius: 7px;
+padding:3px;
+}
+#pembebaslik {
+border:solid 1px;
+border-color:#c000b0;
+background-color:#c000b0;
+height:20px;
+padding:6px;
+color: #ffffff;
+font-size: 15px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+border-radius: 7px;
+}
+#blokkenarturkuaz{
+border:solid 1px;
+border-color:#4ab7e2;
+background-color:#7ed2f3;
+border-radius: 7px;	
+padding:3px;
+}
+#turkuazbaslik {
+border:solid 1px;
+border-color:#4ab7e2;
+background-color:#4ab7e2;
+height:20px;
+padding:6px;
+color: #ffffff;
+font-size: 15px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+border-radius: 7px;
+}
+#blokkenaralt{
+border:solid 3px;
+border-color:#ececec;
+background-color:#0050c1;
+color: #ffffff;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;border-radius: 5px;	
+padding:3px;
+height:30px;
+}
+#blokkenarlacivert{
+border:solid 3px;
+border-color:#8fb4d8;
+background-color:#003681;
+border-radius: 5px;	
+padding:3px;
+width:250px;
+height:200px;
+}
+#lacivertbaslik {
+border:solid 1px;
+border-color:#002962;
+background-color:#002962;
+height:20px;
+padding:6px;
+color: #ffffff;
+font-size: 14px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+border-radius: 5px;
+}
+#turuncubaslik {
+border:solid 1px;
+border-color:#f0b300;
+background-color:#ffc20e;
+height:20px;
+padding:6px;
+color: #232020;
+font-size: 14px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+border-radius: 5px;
+}
+#blokkenargri{
+border:solid 1px;
+border-color:#c0e9fc;
+background-color:#d2f1ff;
+border-radius: 7px;
+padding:3px;
+}
+#blokkenarpembe{
+border:solid 1px;
+border-color:#c000b0;
+background-color:#d801c6;
+border-radius: 7px;
+padding:3px;
+}
+#tablokenarbeyazalt {
+border:solid 0px;
+border-color:#e1e1e1;
+background-image:url(ofosoft_img/alttelifbg.png);
+background-repeat:no-repeat;
+width:930px;
+height:45px;
+padding:8px;
+}
+#tablokenarbeyaz {
+border:solid 1px;
+border-color:#b4d7ef;
+background-image:url(ofosoft_img/divkenar.png);
+border-radius: 4px;
+padding:4px;
+}
+#tablokenarbeyaz2{
+border:solid 1px;
+border-color:#e1e1e1;
+background-color:#f7f7f7;
+border-radius: 5px;
+height:100%;
+padding:3px;
+}
+.tablokenar{
+border:solid 1px;
+border-color:#dbdbdb;
+background-color:#f7f7f7;
+border-radius: 5px;
+height:100%;
+padding:3px;
+}
+.tablokenar:hover{
+border:solid 1px;
+border-color:#dbdbdb;
+background-color:#ff9597;
+border-radius: 5px;
+height:100%;
+padding:3px;
+}
+#sonprojeleralt {
+border:solid 0px;
+border-color:#e1e1e1;
+background-image:url(ofosoft_img/projelerbg.png);
+background-repeat:no-repeat;
+width:336px;
+color:#ffffff;
+height:205px;
+padding:8px;
+}
+#sonhaberleralt {
+border:solid 0px;
+border-color:#e1e1e1;
+background-image:url(ofosoft_img/sonhaberlerbg.png);
+background-repeat:no-repeat;
+width:295px;
+height:205px;
+padding:8px;
+}
+#resimkenar{
+border:solid 1px;
+border-color:#355c92;
+background-color:#426ba3;
+border-radius: 2px;
+padding:2px;
+}
+#oyunortaresim{
+border:solid 1px;
+border-color:#4df831;
+background-color:#4df831;
+border-radius: 4px;
+width:140px;
+height:115px;
+padding:2px;
+}
+#oyunbilgikirmizi{
+border:solid 1px;
+border-color:#a61b00;
+background-color:#dd2400;
+color:#FFFFFF;
+border-radius: 5px;
+width:125px;
+height:32px;
+padding:2px;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#oyunbilgikirmizi{
+border:solid 1px;
+border-color:#a61b00;
+background-color:#dd2400;
+color:#FFFFFF;
+border-radius: 5px;
+width:125px;
+height:32px;
+padding:2px;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#oyunbilgikirmizi{
+border:solid 1px;
+border-color:#980800;
+background-color:#980800;
+color:#FFFFFF;
+border-radius: 5px;
+width:125px;
+height:32px;
+padding:2px;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#oyunbilgimavi{
+border:solid 1px;
+border-color:#3500e1;
+background-color:#3500e1;
+color:#FFFFFF;
+border-radius: 5px;
+width:125px;
+height:32px;
+padding:2px;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#oyunbilgisari{
+border:solid 1px;
+border-color:#ddeb02;
+background-color:#ddeb02;
+color:#333333;
+border-radius: 5px;
+width:125px;
+height:32px;
+padding:2px;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#oyunbilgiyesil{
+border:solid 1px;
+border-color:#0ad100;
+background-color:#0ad100;
+color:#FFFFFF;
+border-radius: 5px;
+width:125px;
+height:32px;
+padding:2px;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#oyunbilgipembe{
+border:solid 1px;
+border-color:#d700d4;
+background-color:#d700d4;
+color:#FFFFFF;
+border-radius: 5px;
+width:125px;
+height:32px;
+padding:2px;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#oyunbilgiturkuaz{
+border:solid 1px;
+border-color:#28fdfa;
+background-color:#28fdfa;
+color:#333333;
+border-radius: 5px;
+width:125px;
+height:32px;
+padding:2px;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#oyunbilgiportakal{
+border:solid 1px;
+border-color:#fedc21;
+background-color:#fedc21;
+color:#333333;
+border-radius: 5px;
+width:125px;
+height:120px;
+padding:2px;
+font-size: 13px;	font-weight:bold;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+</style>

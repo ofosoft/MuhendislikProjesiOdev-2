@@ -1,0 +1,119 @@
+body{ height:100%; font:11px calibri; color:#f8f8f8;}
+img {border:0px;}
+a {color:#f8f8f8; text-decoration:none;}
+a:hover {color:#fffca3; text-decoration:none;}
+
+.wrap {width:1000px; text-align:left;}
+.wrap .content {width:640px; float:right; margin:50px 75px 0px 0px;}
+.wrap .main_content {width:640px; float:right; margin:171px 122px 0px 0px;}
+.wrap .content .page_title {width:550px; height:28px; margin:0px 38px 0px 42px; padding:5px 10px 5px 0px; font:italic 20px Calibri; color:#FFFFFF; text-align:right; float:left; background:url(../ofosoft_img/content_page_tit_bg.png) repeat; }
+.wrap .content .page_title a, .wrap .content .page_title a:hover {color:#FFFFFF; text-decoration:none;}
+.wrap .content .banner {width:640px; height:auto; background-color: #ffffff; border-radius:3px; border: 3px solid #515151; float:left;}
+.wrap .content .page_txt {width:470px; min-height:430px; height:auto; margin:0px 38px 0px 42px; padding:25px 45px; text-align:justify; float:left; background:url(../ofosoft_img/content_detay_bg.png) center bottom repeat-x; }
+.wrap .content .proje_title {width:100%; padding:0px 0 5px 0px; margin:0px 0 10px 0px; font:15px Calibri; color:#FFFFFF; text-align:left; float:left; border-bottom:1px dotted #f8f8f8;}
+
+.wrap .sidebar {width:250px; min-height:1200px; height:auto; position:fixed; float:left; background:url(../ofosoft_img/sidebar_detay_bg.png) left top no-repeat; }
+.wrap .sidebar .logo {width:237px; text-align:center; float:left;}
+.wrap .sidebar .sol_mn {width:235px; text-align:center; float:left;}
+.wrap .sidebar .sol_mn ul{width:235px; padding:0px; margin:0px; list-style:none; float:left;}
+.wrap .sidebar .sol_mn ul li {background:url(../ofosoft_img/solmn_bg.png) repeat; padding:0px 0px; margin:0px 0px 2px 0px; font:10px Calibri; color:#fffefe; height:32px; font-size:12px; font-weight:bold;}
+.wrap .sidebar .sol_mn ul li a {color:#fffefe; text-decoration:none; float:left; width:100%; height:100%;}
+.wrap .sidebar .sol_mn ul li a:hover {color:#00aeef; text-decoration:none;}
+.wrap .sidebar .sol_mn ul li .menu_altbaslik {width:170px!important; z-index:9999; margin:0px 0px 0px -5px;}
+.wrap .sidebar .sol_mn ul li .menu_altbaslik li {margin:0px; border-bottom:2px solid #a8a8a8; }
+
+.wrap .sidebar .sol_mn2 {width:235px; text-align:center; float:left;}
+.wrap .sidebar .sol_mn2 ul{width:235px; padding:0px; margin:0px; list-style:none; float:left;}
+.wrap .sidebar .sol_mn2 ul li {background:url(../ofosoft_img/solmn_proje_bg.png) repeat; padding:7px 8px 7px 0px; margin:0px 0px 17px 0px; font:15px Calibri; color:#fffefe; text-align:right; height:32px; font-weight:bold;}
+.wrap .sidebar .sol_mn2 ul li a {color:#fffefe; text-decoration:none;}
+.wrap .sidebar .sol_mn2 ul li a:hover {color:#000000; text-decoration:none;}
+.wrap .sidebar .sol_mn2 ul li .menu_altbaslik {width:170px!important; z-index:9999; margin:0px 0px 0px -5px;}
+.wrap .sidebar .sol_mn2 ul li .menu_altbaslik li {margin:0px; border-bottom:2px solid #a8a8a8; }
+
+ul {width:235px; padding:0px; margin:0px; list-style:none; float:left;}
+ul li {position:relative;}
+li ul {position:absolute; left:240px; top:0; display:none;}
+ul li a { display:block; text-decoration:none;  border-bottom:0;}
+
+/* IE. gizle \*/ 
+* html ul li { float: left; height: 1%; }
+* html ul li a { height: 1%; } 
+/* IE den gizleme sonu */
+li:hover ul, li.over ul {display: block;}
+
+.wrap .sidebar .sol_proje_mn {width:235px; text-align:center; float:left;}
+.wrap .sidebar .sol_proje_mn ul{width:235px; padding:0px; margin:3px 0px 0px 0px; list-style:none; float:left;}
+.wrap .sidebar .sol_proje_mn ul li {background:url(../ofosoft_img/solmn_proje_bg.png) repeat; padding:7px 8px 7px 0px; margin:0px 0px 17px 0px; font:15px Calibri; color:#fffefe; text-align:right; font-weight:bold;}
+.wrap .sidebar .sol_proje_mn ul li a {color:#fffefe; text-decoration:none;}
+.wrap .sidebar .sol_proje_mn ul li a:hover {color:#000000; text-decoration:none;}
+
+.wrap .sidebar .footer {width:235px; text-align:center; float:left;}
+.wrap .sidebar .footer ul{width:235px; padding:0px; margin:8px 0px 0px 0px; list-style:none; float:left;}
+.wrap .sidebar .footer ul li {padding:0px; margin:0px; font:10px Calibri; color:#a59b9b;}
+.wrap .sidebar .footer ul li .mavi {color:#00aeef;}
+
+.proje_galeri {width:100%; padding:0px 0px 0px 10px; margin:0px; list-style:none;}
+.proje_galeri li {float:left; margin:0px 2px 12px 0px; width:140px; height:90px; overflow:hidden;border:4px solid #f8f8f8; background-color:#fff;}
+.proje_galeri li:hover{border:4px solid #00aeef; cursor:hand;}
+.proje_galeri li img {float:left; width:140px; height:auto;}
+
+.basin_kiti_list {width:100%; margin:0px; padding:0px;}
+.basin_kiti_list li {width:128px; height:145px; float:left; margin:0px 25px 5px 0px; padding:0px;}
+.basin_kiti_list li .title {width:143px; height:40px; float:left; text-align:center; margin:0px; padding:0px;}
+.basin_kiti_list li .pic {width:135px; height:90px; float:left; text-align:center; margin:0px; padding:0px;}
+.basin_kiti_list li .pic img {border:4px solid #f8f8f8 ; width:135px; height:90px;}
+.basin_kiti_list li .pic img:hover {border:4px solid #00aeef; cursor:hand;}
+
+
+.tum_projeler {width:100%; padding:0px 0px 0px 10px; margin:0px; list-style:none; font-size:12px; }
+.tum_projeler li {height:128px; float:left; margin:0px 2px 10px 0px;}
+.tum_projeler li img {width:135px; height:90px; border:4px solid #f8f8f8; float:left;}
+.tum_projeler li img:hover {border:4px solid #00aeef; cursor:hand;}
+.tum_projeler li .proje_tit {width:150px; margin:5px 0px 0px 0px; float:left;  text-align:center;}
+
+#news-container{width:496px; height:179px; position:fixed!important; float:right; right:0px; bottom:50px; background:url(../ofosoft_img/haberler_bgr.png) repeat;} 
+#news-container .mainhaberler {width:100%; height:179px; float:left;}
+#news-container .mainhaberler li {width:100%; height:179px; float:left; clear:both;}
+#news-container .mainhaberler li .title{width:auto; height:21px; float:left; clear:both; margin:26px 0px 0px 17px; padding:6px 9px 0px 40px; right:0px; bottom:50px; background:url(../ofosoft_img/haberler_tit_bgr.png) repeat; font-weight:bold;}
+#news-container .mainhaberler li .icerik{width:439px; height:50px; float:right; right:0px; bottom:50px; margin:15px 0px 0px 0px; padding:0px 0px 0px 40px; font-style:italic;}
+
+.white17{font: 17px arial; color: #ffffff; font-weight:bold;}
+.white17  A:link, .white17  A:visited, .white17  A:active{color:#ffffff; TEXT-DECORATION: none;}
+.white17 A:hover{color:#ffffff; TEXT-DECORATION: underline;}
+
+.white14{font: 14px arial; color: #ffffff; font-weight:bold;}
+.white14  A:link, .white14  A:visited, .white14  A:active{color:#ffffff; TEXT-DECORATION: none;}
+.white14 A:hover{color:#ffffff; TEXT-DECORATION: underline;}
+
+.white15{font: 15px arial; color: #ffffff; font-weight:bold;}
+.white15  A:link, .white15  A:visited, .white15  A:active{color:#ffffff; TEXT-DECORATION: none;}
+.white15 A:hover{color:#ffffff; TEXT-DECORATION: underline;}
+
+.img_border { border:2px solid #ffffff;}
+
+.input_160{font: bold  12px Calibri; color: #494949; padding-left:3px; height:21px; border:1px solid #c9c9c9; background-color: #FFF; width: 160px;}
+.input_text{font: bold  12px Calibri; color: #494949; padding-left:3px; border:1px solid #c9c9c9; background-color: #FFF; width: 160px;}
+#tablokenar {
+border:solid 1px;
+border-color:#00a2d0;
+border-radius:5px;
+padding:5px;
+background:url(/ofosoft_img/haberler_tit_bgr.png) repeat;
+}
+#resimkenar {
+border:solid 1px;
+border-color:#006784;
+border-radius:2px;
+padding:2px;
+background-color:#006784;
+}
+#projebaslik {
+border:solid 1px;
+border-color:#2c368f;
+border-radius:3px;
+padding:4px;
+height:18px;
+font-weight:bold;
+background-color:#2c368f;
+font:12px Verdana;
+}
